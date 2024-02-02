@@ -1,9 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T02:46:50.426Z" agent="Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="23.1.1" etag="R0Zsa5lLp6igjzAstUbI" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T04:15:24.082Z" agent="Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ZpxRWRgtWE0pUswlMdVV" version="23.1.1" type="github">
   <diagram name="Halaman-1" id="5ymzzx0r8omanyu096-U">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RySOMBonGiPLC6G4Futt-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="30" width="300" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="RySOMBonGiPLC6G4Futt-2" value="form pengunjung" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="53" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RySOMBonGiPLC6G4Futt-4" value="pencarian buku" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="159" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RySOMBonGiPLC6G4Futt-5" value="detail buku" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="264" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RySOMBonGiPLC6G4Futt-6" value="laporan statistik" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="370" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RySOMBonGiPLC6G4Futt-7" value="pengunjung" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="159" width="110" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="RySOMBonGiPLC6G4Futt-8" value="pustakawan" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="159" width="110" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="RySOMBonGiPLC6G4Futt-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RySOMBonGiPLC6G4Futt-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="220" as="sourcePoint" />
+            <mxPoint x="460" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RySOMBonGiPLC6G4Futt-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="230" as="sourcePoint" />
+            <mxPoint x="275" y="212" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RySOMBonGiPLC6G4Futt-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RySOMBonGiPLC6G4Futt-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="240" as="sourcePoint" />
+            <mxPoint x="285" y="222" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RySOMBonGiPLC6G4Futt-17" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RySOMBonGiPLC6G4Futt-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="210" as="sourcePoint" />
+            <mxPoint x="660" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="209" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RySOMBonGiPLC6G4Futt-18" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RySOMBonGiPLC6G4Futt-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="140" as="sourcePoint" />
+            <mxPoint x="660" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RySOMBonGiPLC6G4Futt-19" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RySOMBonGiPLC6G4Futt-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="219" as="sourcePoint" />
+            <mxPoint x="660" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RySOMBonGiPLC6G4Futt-20" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RySOMBonGiPLC6G4Futt-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="505" y="229" as="sourcePoint" />
+            <mxPoint x="670" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RySOMBonGiPLC6G4Futt-21" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RySOMBonGiPLC6G4Futt-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="250" as="sourcePoint" />
+            <mxPoint x="285" y="324" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
